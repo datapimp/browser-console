@@ -10,6 +10,7 @@ module BrowserConsole
       initializer "browser_console.initializer" do |app|
         ApplicationController.send(:include, BrowserConsole::Rails)
       end
+
     end
   end
 end

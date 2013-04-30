@@ -3,11 +3,9 @@ class SampleController < ApplicationController
 
   def index
     @ivar = :index
-    head :ok
   end
 
   def show
     @ivar = :show
-    head :ok
   end
 end
